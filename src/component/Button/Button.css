@@ -1,0 +1,19 @@
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0 23px;
+   display: flex;
+   justify-content: space-around;
+   font-size: 30px;
+   text-decoration:none;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.active{
+   font-weight: bold;
+   color: gold !important;
+   text-decoration: none;
+}
