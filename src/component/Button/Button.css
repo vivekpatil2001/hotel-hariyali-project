@@ -1,19 +1,12 @@
-.nav{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin: 0 23px;
-   display: flex;
-   justify-content: space-around;
-   font-size: 30px;
-   text-decoration:none;
-}
-.nav a{
-    text-decoration: none;
-    color: #fff;
-}
-.active{
+.menu-btn{
+    background-color:#e3271d ;
+   border-radius: 5px;
+   padding: 10px;
+   color: white;
+   border: none;
+   margin: 15px;
    font-weight: bold;
-   color: gold !important;
-   text-decoration: none;
+   font-size: 20px;
+
+
 }
