@@ -1,0 +1,17 @@
+
+.menu-price{
+    color: red;
+    font-weight: bolder;
+   
+}
+.menu-name{
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.menu-card{
+   margin-left: 30px;
+}
+.dis-img{
+    border-radius: 10px;
+}
