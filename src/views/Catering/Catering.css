@@ -1,32 +1,17 @@
-.main-container {
-
+.main-catering-container {
     display: flex;
     flex-direction: row;
-
-    /* justify-content: space-; */
+    background: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .background-img-container {
-  
     margin-top: 5px;
-    /* box-shadow: 1px 4px 2px white; */
-    /* background-image: url('./img/catering-main1.jpeg'); */
+   /* background-image: url('./img/catering-main1.jpeg'); */
     background-size: cover;
     /* height: 110vh; */
     /* width: 10%; */
     display: inline-block;
+    background: none;
 }
 
 .img-catering1 {
@@ -36,36 +21,39 @@
     border-radius: 20px;
     height: 605px;
     width: 500px;
+    background: none;
 
 }
 
-body {
+ /* body {
     background-color: #2b2b2b;
 
-}
+} */
 
 .heading {
-
-    margin-right: 60px;
+   margin-right: 60px;
     padding-top: 65px;
     color: white;
     font-size: 50px;
     font-family: cursive;
     position: relative;
     text-align: center;
+    background: none;
 }
 .main-tagline {
     margin-left: 30px;
+    background: none;
    
    }
 
 .tagline-container {
   color: white;
     font-size: 34px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin-right:40px;
     position: relative;
     text-align: center;
+    background: none;
 
 }
 
@@ -76,6 +64,80 @@ body {
     font-family: cursive;
     position: relative;
     text-align: center;
+    background: none;
 
 }
+.catering-container2{
+    /* height: 400px;
 
+    color: white; */
+    margin-top: -10px;
+    /* margin-left: 200px; */
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.catering-service{
+    height: 240px;
+   /* margin: 0px; */
+    margin-top: 55px;
+    /* margin-left: 30px; */
+    background-color: white;
+    margin-right: 5px;
+}
+.service-tagline{
+    color: red;
+    font-size: 24px;
+    margin-left: 230px;
+    background: none;
+    
+}
+.heading2{
+    font-size: 50px;
+   margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: none;
+    
+}
+.img2{
+    height: 550px;
+    /* margin-left: 300px; */
+    box-shadow: 2px 4px 3px rgb(83, 82, 82);
+    background: none;
+}
+.information{
+    color: white;
+    text-align: justify;
+    margin-left: 30px;
+    background: none;
+ 
+}
+.info-about-catering{
+    font-size: 28px;
+   margin-left: 20px;
+    text-align:justify;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    
+    margin-top: -40px;
+    /* position: relative;
+    font-size: 26px;
+   
+    color: white;
+    text-align: justify;
+    justify-content: space-evenly;
+   background: none; */
+    
+}
+.container3{
+ margin-top: 100px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-bottom: 40px;
+ background: none;
+}
