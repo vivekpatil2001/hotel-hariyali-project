@@ -1,18 +1,23 @@
 import "./Card.css"
 import { Link } from "react-router-dom"
 
-export default function Navbar() {
-    const path = window.location.pathname;
-    return (
 
-        <div className="nav">
-            <span>My website</span>
+export default function Contactpagecard( {Img , Heading , Text})
 
-            <Link to="/" className={path==='/'? 'active':''}>HOME</Link>
-            <Link to="/about" className={path==='/about'? 'active':''}>About</Link>
-            <Link to="/contact" className={path==='/contact'? 'active':''}>Contact</Link>
+{
+   return(
+    <div className="contact-page-card">
 
-        </div>
+        
+        
+    <img className="img-contact" src={Img} alt=""/>
 
-    )
+    <h2 className="card-headding" >{Heading}</h2>
+
+    <p className="card-text">{Text}</p>
+     
+
+
+</div>
+   )
 }
