@@ -2,6 +2,8 @@ import "./Menu.css";
 
 import Button from "./../../component/Button/Button";
 import Menucard from "./../../component/Cards/Menucard";
+import Navbar from "../../component/Navbar/Navbar";
+import Footer from "../../component/Footer/Footer";
 
 import main_img1 from "./../../views/Menu/img/CHICKEN-KABAB.jpeg";
 import main_img2 from "./../../views/Menu/img/CHICKEN-WINGS.jpeg";
@@ -17,10 +19,26 @@ import Weight_img2 from "./../../views/Menu/img/SHISH-TAOUT.jpeg";
 import Weight_img3 from "./../../views/Menu/img/MIX.jpeg";
 import Weight_img4 from "./../../views/Menu/img/TIKKA-LAMB.jpeg";
 
-import sand_img1 from "./../../views/Menu/img/FALAFEL.jpeg";
-import sand_img2 from "./../../views/Menu/img/VEGGIE-PLATE.jpeg";
-import sand_img3 from "./../../views/Menu/img/GARDEN-SALAD.jpeg";
-import sand_img4 from "./../../views/Menu/img/TABBOULES.jpeg";
+import salad_img1 from "./../../views/Menu/img/FALAFEL.jpeg";
+import salad_img2 from "./../../views/Menu/img/VEGGIE-PLATE.jpeg";
+import salad_img3 from "./../../views/Menu/img/GARDEN-SALAD.jpeg";
+import salad_img4 from "./../../views/Menu/img/TABBOULES.jpeg";
+
+import cake_img1 from "./../../views/Menu/img/Rasmalai-Cake.jpeg";
+import cake_img2 from "./../../views/Menu/img/chochlate-cake.jpeg";
+import cake_img3 from "./../../views/Menu/img/strawberry-cake.jpg";
+import cake_img4 from "./../../views/Menu/img/chocho-cake.jpeg";
+
+import sand_img1 from "./../../views/Menu/img/veg-sandwich.jpeg";
+import sand_img2 from "./../../views/Menu/img/Corn_And_Capsicum_Sandwich.jpg";
+import sand_img3 from "./../../views/Menu/img/grilled-chilli-cheese-sandwich.jpg";
+import sand_img4 from "./../../views/Menu/img/Fruit_Sandwich.jpg";
+
+
+
+
+
+
 
 
 
@@ -37,6 +55,7 @@ export default function Menu(){
 
     return(
         <>
+        <Navbar/>
     <div className="menu-bg"> 
            <h1 className="menu-heading menu-head">Menu</h1>
            <h3 className="menu-head">Indulge in the exquisite and diverse tastes of </h3>
@@ -82,23 +101,32 @@ export default function Menu(){
 
     <h1 className="menu-field">SALADS & APPITIZERS</h1>
     <div className="menu-div "  >
-        <Menucard img={sand_img1} text="FALAFEL [6PCS]" price="10.99" />
-        <Menucard img={sand_img2} text="VEGGIE PLATE" price="25.99" />
-        <Menucard img={sand_img3} text="GARDEN SALAD" price="20.99" />
-        <Menucard img={sand_img4} text="TABBOULES" price="8.99" />
+        <Menucard img={salad_img1} text="FALAFEL [6PCS]" price="10.99" />
+        <Menucard img={salad_img2} text="VEGGIE PLATE" price="25.99" />
+        <Menucard img={salad_img3} text="GARDEN SALAD" price="20.99" />
+        <Menucard img={salad_img4} text="TABBOULES" price="8.99" />
         
     </div>
 
-    <h1 className="menu-field">SANDWICHES</h1>
+    <h1 className="menu-field">CAKES</h1>
     <div className="menu-div "  >
-        <Menucard img={sand_img1} text="FALAFEL [6PCS]" price="10.99" />
-        <Menucard img={sand_img2} text="VEGGIE PLATE" price="25.99" />
-        <Menucard img={sand_img3} text="GARDEN SALAD" price="20.99" />
-        <Menucard img={sand_img4} text="TABBOULES" price="8.99" />
+        <Menucard img={cake_img1} text="Rasmalai Cake" price="300.10" />
+        <Menucard img={cake_img2} text="chochlate-cake" price="250" />
+        <Menucard img={cake_img3} text="strawberry-cake" price="200" />
+        <Menucard img={cake_img4} text="chocho-cake" price="150" />
         
     </div>
 
+    <h1 className="menu-field">SANDWICH</h1>
+    <div className="menu-div "  >
+        <Menucard img={sand_img1} text="veg sandwich" price="30.10" />
+        <Menucard img={sand_img2} text="Corn Andb Capsicum Sandwich" price="40" />
+        <Menucard img={sand_img3} text="Grilled chilli cheese sandwich" price="50" />
+        <Menucard img={sand_img4} text="Fruit Sandwich" price="45" />
+        
+    </div>
 
+   <Footer/>
     </>
 
     )
