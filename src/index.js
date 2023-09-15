@@ -32,25 +32,12 @@ const router = createBrowserRouter([
  
 ])
 
-// function App(){
-//   const path = window.location.pathname;
-//   if (path==="/"){
-//     return <HomePage/>
-//   }
-//   else if(path==="/about"){
-//     return <About/>
-//   }
-//   else if (path==="/contact"){
-//   return <Contact/>
-// }
-// else{
-//   return<h1>yah galatpage hai</h1>
-// }
-// }
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    {/* <App/> */}
+  
     <RouterProvider router={router}/>
    
   </>
