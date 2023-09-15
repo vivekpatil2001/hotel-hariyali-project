@@ -1,19 +1,31 @@
-.nav{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin: 0 23px;
-   display: flex;
-   justify-content: space-around;
-   font-size: 30px;
-   text-decoration:none;
-}
-.nav a{
-    text-decoration: none;
-    color: #fff;
-}
-.active{
-   font-weight: bold;
-   color: gold !important;
-   text-decoration: none;
-}
+.contact-page-card{
+    margin-top: -90px;
+     width: 300px;
+     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+     height: 290px;
+     border-radius: 5px;
+     backdrop-filter: blur(14px);
+     background-color: rgba(0, 0, 0, 0.337);
+     padding: 10px;
+     text-align: center;
+     
+ }
+ .img-contact{
+     height: 100px;
+     margin-top: 20px;
+     background: none;
+ }
+ .card-headding{
+     color: aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 15px;
+     background: none;
+ 
+ }
+ .card-text{
+     color: aliceblue;
+     font-size: 18px;
+     margin-top: 20px;
+     background: none;
+ 
+ }
