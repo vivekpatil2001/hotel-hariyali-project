@@ -24,6 +24,7 @@
    top:120px;
    background: none;
    color: white;
+   
 }
 .btn-div{
   display: flex;
@@ -37,12 +38,14 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 70px;
+    margin-bottom: 20px;
    
 }
 .menu-field{
   margin-left: 100px;
   font-weight: bolder;
   color: white;
+
 
 }
 
