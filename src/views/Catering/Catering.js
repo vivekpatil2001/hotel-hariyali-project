@@ -83,7 +83,7 @@ export default function Catering() {
                 <br /><br /><br />
                 <h1 className="heading-catering-service">Catering Service</h1>
 
-                <br />
+                <br/>
                 <div className="container-catering-servicee">
                     <p className="catering-service-information-hariyali">
                         Hariyali Hotel offers a diverse range of catering services to suit your every need. From elegant banquet-style dinners that are perfect for weddings and formal events, to casual and vibrant outdoor barbecues, our experienced team is equipped to create a memorable culinary experience for any occasion. Our menu options span from traditional Indian cuisine to international flavors, ensuring a delightful dining experience for all your guests. Whether it's a corporate luncheon or a grand celebration, Hariyali Hotel's catering services, delivered by our dedicated team, are designed to exceed your expectations and leave a lasting impression.</p>
