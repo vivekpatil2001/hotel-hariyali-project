@@ -1,32 +1,18 @@
-.main-container {
-
+.main-catering-container {
     display: flex;
     flex-direction: row;
-
-    /* justify-content: space-; */
+    background: none;
+    margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .background-img-container {
-  
     margin-top: 5px;
-    /* box-shadow: 1px 4px 2px white; */
-    /* background-image: url('./img/catering-main1.jpeg'); */
+   /* background-image: url('./img/catering-main1.jpeg'); */
     background-size: cover;
     /* height: 110vh; */
     /* width: 10%; */
     display: inline-block;
+    background: none;
 }
 
 .img-catering1 {
@@ -35,37 +21,40 @@
     box-shadow: 1px 2px 4px 2px white;
     border-radius: 20px;
     height: 605px;
-    width: 500px;
+    width: 400px;
+    background: none;
 
 }
 
-body {
+ /* body {
     background-color: #2b2b2b;
 
-}
+} */
 
 .heading {
-
-    margin-right: 60px;
+   margin-right: 60px;
     padding-top: 65px;
     color: white;
     font-size: 50px;
     font-family: cursive;
     position: relative;
     text-align: center;
+    background: none;
 }
 .main-tagline {
     margin-left: 30px;
+    background: none;
    
    }
 
 .tagline-container {
   color: white;
     font-size: 34px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin-right:40px;
     position: relative;
     text-align: center;
+    background: none;
 
 }
 
@@ -76,6 +65,152 @@ body {
     font-family: cursive;
     position: relative;
     text-align: center;
+    background: none;
 
 }
+.catering-container2{
+    /* height: 400px;
 
+    color: white; */
+    margin-top: -10px;
+    /* margin-left: 200px; */
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.catering-service{
+    height: 240px;
+   /* margin: 0px; */
+    margin-top: 55px;
+    /* margin-left: 30px; */
+    background-color: white;
+    margin-right: 5px;
+}
+.service-tagline{
+    color: red;
+    font-size: 24px;
+    margin-left: 230px;
+    background: none;
+    
+}
+.heading2{
+    font-size: 50px;
+   margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: none;
+    
+}
+.img2{
+    height: 550px;
+    /* margin-left: 300px; */
+    box-shadow: 2px 4px 3px rgb(83, 82, 82);
+    background: none;
+}
+.information{
+    color: white;
+    text-align: justify;
+    margin-left: 30px;
+    background: none;
+ 
+}
+.info-about-catering{
+    font-size: 28px;
+   margin-left: 20px;
+    text-align:justify;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    
+    margin-top: -40px;
+    /* position: relative;
+    font-size: 26px;
+   
+    color: white;
+    text-align: justify;
+    justify-content: space-evenly;
+   background: none; */
+    
+}
+.container3{
+ margin-top: 80px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-bottom: 40px;
+ background: none;
+}
+.container4{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    background: none;
+   }
+   .heading-table-booking{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+   }
+ 
+.info-container{
+    text-align: center;
+    height: 200px;
+   
+}
+.information-bday-weeding-event{
+    /* border: 1px solid white; */
+  text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 26px;
+   
+   }
+   .information-bday{
+    color: white;
+    
+    font-size: 30px;
+   }
+   .information-bday-2{
+    color: white;
+    font-size: 27px;
+   }
+   .main-container-catering4{
+    margin-top: 40px;
+    height: 460px;
+    background-color: rgba(255, 255, 255, 0.79);
+   }
+   .catering-service-heading1{
+    color: black;
+   
+   }
+  
+   .heading-catering-service{
+    color: white;
+    text-align: center;
+     margin-left: 210px;
+     margin-right: 210px;
+   }
+
+   .catering-service-information-hariyali{
+    color:white;
+    font-size: 24px;
+    text-align: justify;
+    background: none;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+   }
+   .catering-service-img{
+    height: 300px;
+   }
+.catering-service-img{
+    margin-left: 30px;
+    margin-top: 20px;
+    background: none;
+    border-radius: 80px;
+    margin-bottom: 30px;
+}

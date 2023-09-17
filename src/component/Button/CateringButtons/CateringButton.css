@@ -1,0 +1,26 @@
+/* .btn1-catering {
+ padding-left: 20px;
+ padding-right: 20px;
+ background-color: black !important;
+}
+
+#quantity-catering {
+    height: 20px;
+    width: 30px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: tomato;
+    color: white;
+    border-radius: 100px;
+    padding-left: 26px;
+    padding-right: 7px;
+} */
+.quantity-btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+.button-incre-decre{
+    height: 200px;
+    width: 60px;
+    background-color: black;
+}
