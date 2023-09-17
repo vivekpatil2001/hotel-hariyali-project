@@ -1,5 +1,6 @@
 import "./Catering.css";
 import Navbar from "./../../component/Navbar/Navbar";
+import Footer from "../../component/Footer/Footer";
 import img1 from "./img/catering-main1.jpeg";
 import img2 from "./img/catering12new.jpg";
 import img3 from "./img/bday.jpeg";
@@ -17,7 +18,7 @@ import CateringButton from "../../component/Button/CateringButtons/CateringButto
 export default function Catering() {
     return (
         <>
-
+            <Navbar />
 
             <div className="main-catering-container">
                 <div className="background-img-container">
@@ -79,11 +80,11 @@ export default function Catering() {
             <br /><br /><br />
             <div className="main-container-catering4">
                 <div>
-                     </div>
+                </div>
                 <br /><br /><br />
                 <h1 className="heading-catering-service">Catering Service</h1>
 
-                <br/>
+                <br />
                 <div className="container-catering-servicee">
                     <p className="catering-service-information-hariyali">
                         Hariyali Hotel offers a diverse range of catering services to suit your every need. From elegant banquet-style dinners that are perfect for weddings and formal events, to casual and vibrant outdoor barbecues, our experienced team is equipped to create a memorable culinary experience for any occasion. Our menu options span from traditional Indian cuisine to international flavors, ensuring a delightful dining experience for all your guests. Whether it's a corporate luncheon or a grand celebration, Hariyali Hotel's catering services, delivered by our dedicated team, are designed to exceed your expectations and leave a lasting impression.</p>
