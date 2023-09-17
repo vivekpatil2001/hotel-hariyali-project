@@ -101,6 +101,10 @@ export default function Catering() {
                 </div>
 
             </div>
+            <div className="footercatering">
+            <Footer/>
+            </div>
+
             
  </>
     )
