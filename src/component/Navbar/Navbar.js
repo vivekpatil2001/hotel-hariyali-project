@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <nav>
            
-                <Link to="/" className="title"> <img src={logo} className="logo-img"/></Link>
+               
             <ul>
                 {/* <div className="navmenu">
                     <span></span>
@@ -19,8 +19,10 @@ export default function Navbar() {
                     <span></span>
                 </div> */}
                
+              <Link to="/" className="title"> <img src={logo} className="logo-img"/></Link>
+           
                 <li>
-                <Link to="/" className={path === '/' ? 'active1' : ''}>HOME</Link>
+                <Link to="/" className={path === '/' ? 'active1' : ''} id="home-home">HOME</Link>
                 </li>
                 <li>
                 <Link to="/contact" className={path === '/contact' ? 'active1' : ''}>Contact</Link>

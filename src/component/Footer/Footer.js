@@ -4,13 +4,13 @@ import { Link } from "react-router-dom"
 export default function Footer() {
 
    return (
-
-      <footer className="footer">
+   <div className="main-container-footer">
+      <div className="footer">
          <div className="container ">
             <div className="row">
                <div className="footer-col">
                   <h4>Contact us</h4>
-                  <ul>
+                  <ul className="footer-list">
 
                      <li><a href="#">Call us<br></br>
                         <h4> 9356181098 </h4></a> </li>
@@ -24,34 +24,34 @@ export default function Footer() {
                </div>
                <div className="footer-col">
                   <h4>GetHelp</h4>
-                  <ul>
+                  <ul  className="footer-list">
                      <li><a href="#">FAQ</a></li>
-                     <li><a href="#">FAQ</a></li>
-                     <li><a href="#">FAQ</a></li>
-                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">HELP</a></li>
+                     <li><a href="#">LOGIN</a></li>
+                     <li><a href="#">ORDER</a></li>
                   </ul>
                </div>
                <div className="footer-col">
                   <h4>QUICK LINK</h4>
-                  <ul>
+                  <ul  className="footer-list">
                      <li><a href="#">HOME</a></li><br></br>
                      <li><a href="#">Menu</a></li><br></br>
                      <li><a href="#">Catering</a></li><br></br>
                      <li><a href="#">Contact</a></li><br></br>
                   </ul>
                </div>
-               <div className="footer-col">
+               <div className="footer-col" >
                   <h4>FOLLOW</h4>
-                  <ul>
-                     <li><a href="#"><h3><i class="fa-brands fa-facebook"></i></h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-instagram"></i></h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-linkedin"></i></h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-twitter"></i></h3></a></li><br></br>
+                  <ul  className="footer-list">
+                     <li><a href="#"><h3><i class="fa-brands fa-facebook"> </i> Facebook</h3></a></li><br></br>
+                     <li><a href="#"><h3><i class="fa-brands fa-instagram"> </i> Instagram</h3></a></li><br></br>
+                     <li><a href="#"><h3><i class="fa-brands fa-linkedin"> </i> Linkedin</h3></a></li><br></br>
+                     <li><a href="#"><h3><i class="fa-brands fa-twitter"> </i> Twitter</h3></a></li><br></br>
                   </ul>
                </div>
             </div>
          </div>
-      </footer>
-
+      </div>
+      </div>
    )
 }

@@ -17,13 +17,8 @@
    color: gold !important;
    text-decoration: none;
 } */
-body{
-    background-color: #2b2b2b;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 .active1 {
     
     border-bottom: 2px solid tomato;
@@ -32,28 +27,36 @@ body{
 nav {
 
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #1f1f1f;
     position: sticky;
+    /* top: 0; */
+    padding: 5px;
+    position: sticky;
     top: 0;
-    padding: 15px;
+    z-index: 100;
 
 
 }
 
 .title {
     font-size: 3.0rem;
-    margin: 1rem 0 0.5rem 3rem;
+    /* margin: 1rem 0 0.5rem 3rem; */
     font-weight: bold;
     text-decoration: none;
     color: white;
- background: none;
+    background: none;
+   margin-right: 100px;
 
 }
 .logo-img{
     background: none;
-    height: 80px;
+    height: 90px;
+    padding-top: 10px;
+    margin-left: 70px;
+  
 }
 
 nav ul {
@@ -69,6 +72,7 @@ nav ul li {
     font-size: 25px;
     margin: 20px;
     background: none;
+    
 
 
 }
@@ -95,11 +99,11 @@ nav ul li a:not(.active)hover {
     background-color: #1f1f1f;
     border: 1px solid white;
     margin-right: 2.5rem;
-    margin-left: 5rem;
+    margin-left: 10px;
     color: white;
 }
 .navbtn:hover{
-    background-color: tomato;
+    background-color: red;
     transition: 0.5s;
 }
 .navmenu {
@@ -121,31 +125,44 @@ nav .navmenu span{
     background-color: tomato;
     border-radius: 0.2rem;
 }
+#home-home{
+    margin-left: 220px;
+}
 
-@media(max-width: 480px) {
-    .navmenu {
-        display: flex;
+@media only screen and (max-width: 900px) {
+   
+nav ul {
+    display: flex;
+    flex-direction: column;
+    } 
+
+    nav ul li {
+       
+        font-size: 20px;
+        margin: 10px;
+        background: none;
+    
+    
     }
-
-    nav {
+    /* nav {
         flex-direction: column;
         align-items: start;
 
-    }
+    } */
 
-    nav ul{
+     /* nav ul{
         
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
-    }
+    }  */
 
-    nav ul li {
+    /* nav ul li {
         display: none;
         width: 100%;
         text-align: center;
     }
     nav ul li a{
         margin: 0 2rem 0 5rem;
-    }
+    } */ 
 }

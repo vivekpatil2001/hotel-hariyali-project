@@ -1,40 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container{
-    max-width: 1170px;
-    
-    margin: auto;
-
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-ul{
-    list-style: none;
-}
-.footer{
-    background-color: #24262b;
-    padding: 70px 0;
     
 }
-.footer-col{
-    width:25%;
-    padding: 0 15px;
 
+
+.footer {
+
+    width: 1400px;
+    background-color: black;
 }
-.footer-col h4{
+
+
+.footer-col {
+    width: 25%;
+   /* margin-top: 40px; */
+   margin-left: 0px;
+   margin-left: 0px;
+   background-color: black;
+   padding-top: 40px;
+  }
+
+.footer-col h4 {
     font-size: 18px;
-    color:white;
+    color: white;
     text-transform: capitalize;
-    margin-bottom: 30px;
     font-weight: 500;
+    background-color: black;
     position: relative;
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
@@ -43,12 +40,15 @@ ul{
     height: 2px;
     box-sizing: border-box;
     width: 50px;
+    background-color: black;
 }
-.footer-col ul li:not(:last-child)
-{
+
+.footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
+    background-color: black;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -57,5 +57,19 @@ ul{
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
-
+    background-color: black;
+}
+.footer-list{
+    margin-top: 30px;
+    background-color: black;
+    background: none;
+}
+.main-container-footer{
+    background-color: black;
+}
+.footer-none{
+    background-color: black !important;
+    color: black;
+    background: none;
+    color: white;
 }
