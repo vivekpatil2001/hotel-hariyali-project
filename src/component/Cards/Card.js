@@ -6,7 +6,7 @@ export default function Contactpagecard( {Img , Heading , Text})
 
 {
    return(
-    <div className="contact-page-card">
+    <div className="contact-page-cardcard">
 
         
         
