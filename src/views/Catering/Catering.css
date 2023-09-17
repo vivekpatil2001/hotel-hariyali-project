@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     background: none;
+    margin-top: 30px;
 }
 
 .background-img-container {
@@ -20,7 +21,7 @@
     box-shadow: 1px 2px 4px 2px white;
     border-radius: 20px;
     height: 605px;
-    width: 500px;
+    width: 400px;
     background: none;
 
 }
@@ -134,10 +135,82 @@
     
 }
 .container3{
- margin-top: 100px;
+ margin-top: 80px;
  display: flex;
  flex-direction: row;
  justify-content: space-evenly;
  margin-bottom: 40px;
  background: none;
+}
+.container4{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    background: none;
+   }
+   .heading-table-booking{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+   }
+ 
+.info-container{
+    text-align: center;
+    height: 200px;
+   
+}
+.information-bday-weeding-event{
+    /* border: 1px solid white; */
+  text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 26px;
+   
+   }
+   .information-bday{
+    color: white;
+    
+    font-size: 30px;
+   }
+   .information-bday-2{
+    color: white;
+    font-size: 27px;
+   }
+   .main-container-catering4{
+    margin-top: 40px;
+    height: 460px;
+    background-color: rgba(255, 255, 255, 0.79);
+   }
+   .catering-service-heading1{
+    color: black;
+   
+   }
+  
+   .heading-catering-service{
+    color: white;
+    text-align: center;
+     margin-left: 210px;
+     margin-right: 210px;
+   }
+
+   .catering-service-information-hariyali{
+    color:white;
+    font-size: 24px;
+    text-align: justify;
+    background: none;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+   }
+   .catering-service-img{
+    height: 300px;
+   }
+.catering-service-img{
+    margin-left: 30px;
+    margin-top: 20px;
+    background: none;
+    border-radius: 80px;
+    margin-bottom: 30px;
 }
