@@ -7,7 +7,8 @@ import ImgClock from './img/cloc.png';
 import ImgGmail from './img/mail.png';
 import ImgEmployee from './img/employee.jpg';
 import ImgEmp from './img/emp.jpg';
-
+import Navbars from "./../../component/Navbar/Navbar";
+import Footers from "../../component/Footer/Footer";
 
 
 
@@ -16,7 +17,7 @@ import ImgEmp from './img/emp.jpg';
 export default function About() {
     return (
         <>
-
+                   <Navbars/>
             <div className="background-contanctimg-container">
 
                 <h1 className="heading-name">Conatct Us</h1>
@@ -80,7 +81,7 @@ export default function About() {
 
 
                 </div>
-
+               <Footers/>
               
         </>
 
