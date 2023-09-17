@@ -1,12 +1,9 @@
 .menu-btn{
-    background-color:#e3271d ;
-   border-radius: 5px;
+    background-color:RED ;
+   border-radius: 01px;
    padding: 10px;
    color: white;
    border: none;
    margin: 15px;
-   font-weight: bold;
    font-size: 20px;
-
-
 }

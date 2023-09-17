@@ -1,19 +1,79 @@
-.nav{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.footer {
+    width: 1400px;
+    background-color: black;
+    margin-left: 100PX !important;
+}
+.footer-col {
+   width: 25%;
+   background-color: black;
+   padding-top: 40px;
+  }
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: black;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    background-color: black;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+.footer-list{
+    margin-top: 30px;
+    background-color: black;
+    background: none;
+}
+.main-container-footer{
+    background-color: black;
+}
+.footer-none{
+    background-color: black !important;
+    color: black;
+    background: none;
+    color: white;
+}
+.facebook-footer{
     background-color: black;
     color: white;
-    padding: 20px;
-    margin: 0 23px;
-   display: flex;
-   justify-content: space-around;
-   font-size: 30px;
-   text-decoration:none;
+    background: none;
+    font-size: 25px;
 }
-.nav a{
-    text-decoration: none;
-    color: #fff;
-}
-.active{
-   font-weight: bold;
-   color: gold !important;
-   text-decoration: none;
+.footer-lis{
+    background-color: black;
+    background: none;
 }

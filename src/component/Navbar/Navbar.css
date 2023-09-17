@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
     background-color: black;
     color: white;
     padding: 20px;
@@ -16,4 +16,153 @@
    font-weight: bold;
    color: gold !important;
    text-decoration: none;
+} */
+
+
+.active1 {
+    
+    border-bottom: 2px solid tomato;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    position: sticky;
+    /* top: 0; */
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+
+}
+
+.title {
+    font-size: 3.0rem;
+    /* margin: 1rem 0 0.5rem 3rem; */
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background: none;
+   margin-right: 100px;
+
+}
+.logo-img{
+    background: none;
+    height: 90px;
+    padding-top: 10px;
+    margin-left: 70px;
+  
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 25px;
+    margin: 20px;
+    background: none;
+    
+
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    background: none;
+
+}
+
+nav ul li a:not(.active)hover {
+    background-color: rgb(34, 40, 41);
+
+}
+
+.navbtn{
+    height: 60px;
+    width: 170px;
+    background-color: #1f1f1f;
+    border: 1px solid white;
+    margin-right: 2.5rem;
+    margin-left: 10px;
+    color: white;
+}
+.navbtn:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.navmenu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+
+
+}
+
+nav .navmenu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: tomato;
+    border-radius: 0.2rem;
+}
+#home-home{
+    margin-left: 220px;
+}
+
+@media only screen and (max-width: 900px) {
+   
+nav ul {
+    display: flex;
+    flex-direction: column;
+    } 
+
+    nav ul li {
+       
+        font-size: 20px;
+        margin: 10px;
+        background: none;
+    
+    
+    }
+    /* nav {
+        flex-direction: column;
+        align-items: start;
+
+    } */
+
+     /* nav ul{
+        
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }  */
+
+    /* nav ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a{
+        margin: 0 2rem 0 5rem;
+    } */ 
 }

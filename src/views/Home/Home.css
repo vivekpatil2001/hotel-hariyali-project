@@ -1,19 +1,184 @@
-.nav{
-    background-color: black;
+
+    * {
+        padding: 0;
+        margin: 0;
+        background-color: #272727;
+      
+      }
+
+.home-container{
+    background-image: url(./img/home-bg.gif);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.textOfhome{
+    background-color: transparent;
+ 
+
+
+}
+.homehead{
+    background-color: transparent;
     color: white;
-    padding: 20px;
-    margin: 0 23px;
-   display: flex;
-   justify-content: space-around;
-   font-size: 30px;
-   text-decoration:none;
+    margin-left: 60px;
+   
+ 
 }
-.nav a{
-    text-decoration: none;
-    color: #fff;
+.homeimg2{
+    height: 650px;
+    
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+
 }
-.active{
-   font-weight: bold;
-   color: gold !important;
-   text-decoration: none;
+.texthome2{
+    display: flex;
+    
+}
+.hometaxt3{
+    color: red;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.removemg{
+    margin: 0;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Cambria;
+}
+.homesubtext{
+    color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family:'Segoe UI';
+    font-weight: 500;
+    
+
+
+}
+.homesubtext2{
+  margin-left: 50px;
+}
+.clientreviewheading{
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+    font-size: 30px;
+   
+}
+.clientreviewheading1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.btnhome{
+    margin-left: 40px;
+}
+
+.home-page-card{
+    height: 500px;
+    border-color: tomato;
+    width: 600px;
+}
+.homewelcome{
+    background: none;
+    color: red;
+    font-size:40px ;
+    font-family:italic;
+    margin-left: 110px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.home-slogen-line{
+    background: none;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-left: 110px;
+    font-family:'Times New Roman', Times, serif;
+}
+.BTNONHOME{
+    background: none;
+    border: none;
+   margin-left: 100px;
+}
+.home-star-img{
+    margin-left: 560px;
+   margin-top: -110px;
+   height: 350px;
+   background: none;
+    
+}
+.home-card-container{
+    margin-top: -210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+.home-card-container2{
+    margin-top: -100px;
+}
+.btn-revews{
+    margin-left:672px;
+    margin-top:30px;
+}
+.home-custum-category{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+   
+}
+.home-custm-card-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.registreo-container{
+    background-color: rgba(0, 0, 0, 0.282);
+    width: 100%;
+    height: 230px;
+   margin-top: 25px;
+}
+.line-home{
+    color: white;
+    background: none;
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 50px;
+    
+}
+.subscribe{
+    background: none;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.input-box-custum{
+    height: 45px;
+    width: 450px;
+    border: none;
+    background-color: aliceblue;
+    color: #272727;
+    margin-left: 530px;
+    padding: 5px;
+}
+.btn-subscribr{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-left: 720px;
+    margin-top: 20px;
+    border: none;
 }
