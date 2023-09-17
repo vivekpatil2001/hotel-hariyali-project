@@ -7,19 +7,21 @@
 
 
 .footer {
-
     width: 1400px;
     background-color: black;
+    margin-left: 100PX !important;
+   
 }
+
 
 
 .footer-col {
     width: 25%;
    /* margin-top: 40px; */
-   margin-left: 0px;
-   margin-left: 0px;
+  
    background-color: black;
    padding-top: 40px;
+  
   }
 
 .footer-col h4 {
@@ -72,4 +74,15 @@
     color: black;
     background: none;
     color: white;
+}
+.facebook-footer{
+    background-color: black;
+    color: white;
+    background: none;
+    font-size: 25px;
+
+}
+.footer-lis{
+    background-color: black;
+    background: none;
 }

@@ -25,10 +25,10 @@ export default function Footer() {
                <div className="footer-col">
                   <h4>GetHelp</h4>
                   <ul  className="footer-list">
-                     <li><a href="#">FAQ</a></li>
-                     <li><a href="#">HELP</a></li>
-                     <li><a href="#">LOGIN</a></li>
-                     <li><a href="#">ORDER</a></li>
+                     <li><a href="#">FAQ</a></li><br></br>
+                     <li><a href="#">HELP</a></li><br></br>
+                     <li><a href="#">LOGIN</a></li><br></br>
+                     <li><a href="#">ORDER</a></li><br></br>
                   </ul>
                </div>
                <div className="footer-col">
@@ -42,12 +42,12 @@ export default function Footer() {
                </div>
                <div className="footer-col" >
                   <h4>FOLLOW</h4>
-                  <ul  className="footer-list">
-                     <li><a href="#"><h3><i class="fa-brands fa-facebook"> </i> Facebook</h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-instagram"> </i> Instagram</h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-linkedin"> </i> Linkedin</h3></a></li><br></br>
-                     <li><a href="#"><h3><i class="fa-brands fa-twitter"> </i> Twitter</h3></a></li><br></br>
-                  </ul>
+                  <div  className="footer-lis">
+                     <p className="facebook-footer"><i class="fa-brands fa-facebook"> </i> Facebook</p><br></br>
+                     <p className="facebook-footer"><i class="fa-brands fa-instagram"> </i> Instagram</p><br></br>
+                     <p className="facebook-footer"><i class="fa-brands fa-linkedin"> </i> Linkedin </p><br></br>
+                     <p className="facebook-footer"><i class="fa-brands fa-twitter"> </i> Twitter</p><br></br>
+                  </div>
                </div>
             </div>
          </div>
