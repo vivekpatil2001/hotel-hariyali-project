@@ -24,14 +24,15 @@ export default function Navbar() {
                 <li>
                 <Link to="/" className={path === '/' ? 'active1' : ''} id="home-home">HOME</Link>
                 </li>
-                <li>
-                <Link to="/contact" className={path === '/contact' ? 'active1' : ''}>Contact</Link>
-                </li>
+               
                 <li>
                 <Link to="/Menu" className={path === '/menu' ? 'active1' : ''}>Menu</Link>
                 </li>
                 <li>
                 <Link to="/Catering" className={path === '/catering' ? 'active1' : ''}>Catering</Link>
+                </li>
+                <li>
+                <Link to="/contact" className={path === '/contact' ? 'active1' : ''}>Contact</Link>
                 </li>
                 <li>
                      <button className="navbtn">Book a table</button>
