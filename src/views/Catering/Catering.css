@@ -90,7 +90,7 @@
 .service-tagline{
     color: red;
     font-size: 24px;
-    margin-left: 230px;
+    margin-left: 400px;
     background: none;
     
 }
@@ -189,10 +189,12 @@
    }
   
    .heading-catering-service{
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: center;
      margin-left: 210px;
      margin-right: 210px;
+     background: none;
    }
 
    .catering-service-information-hariyali{
@@ -208,12 +210,12 @@
     height: 300px;
    }
 .catering-service-img{
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 70px;
     background: none;
     border-radius: 80px;
     margin-bottom: 30px;
 }
 .footercatering{
-    margin-top: 400px;
+    margin-top: 250px;
 }
