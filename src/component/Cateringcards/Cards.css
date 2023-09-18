@@ -31,16 +31,22 @@
 }
 .button-catering{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 25px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 18px;
+    margin-right: 5px;
     color: white;
    height: 40px;
+}
+.buttons-incre-decree{
+    background: none;
+    height: 90px;
+    background-color: aliceblue;
 }
 .catering-btn-incdec{
     background-color: black;
     color: white;
     font-size: 25px;
     width: 50px;
-    margin-left: 30px;
+    margin-left: 18px;
 }
